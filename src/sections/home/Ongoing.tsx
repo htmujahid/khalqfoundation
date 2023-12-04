@@ -10,7 +10,7 @@ export function Ongoing() {
       </Heading>
       <Card>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 gap-y-8 p-9">
-          <div className="mx-auto overflow-hidden rounded-xl">
+          <div className="mx-auto overflow-hidden rounded-3xl">
             <Image
               src="/assets/images/cases/ongoing.jpg"
               alt="ongoing"
