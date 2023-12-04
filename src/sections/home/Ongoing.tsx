@@ -10,11 +10,11 @@ export function Ongoing() {
       </Heading>
       <Card>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 gap-y-8 p-9">
-          <div className="mx-auto">
+          <div className="mx-auto overflow-hidden rounded-xl">
             <Image
-              src="/assets/images/cases/ongoing.png"
+              src="/assets/images/cases/ongoing.jpg"
               alt="ongoing"
-              className="w-auto h-auto"
+              className="w-auto h-auto hover:scale-105 transition-all duration-300"
               width={500}
               height={500}
             />
@@ -26,7 +26,7 @@ export function Ongoing() {
               </span>
             </div>
             <Heading level={2} className="font-serif text-center sm:text-left">
-              Student Hostel Fee
+              Student Tution Fee
             </Heading>
             <div className="py-4 2xl:py-6">
               <p className="w-full text-center sm:text-left xl:w-[450px] text-lg text-gray-dark max-h-36 sm:h-20 overflow-hidden">
