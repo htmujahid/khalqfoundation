@@ -8,7 +8,7 @@ export function Hero() {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div className="order-2 lg:order-1 text-center sm:text-left">
           <Headline
-            title="KHLAQ FOUNDATION"
+            title="KHALQ FOUNDATION"
             subtitle="Give hope and change lives of those in need"
           />
           <Heading level={5}>
