@@ -1,13 +1,13 @@
 export const accounts = [
   {
     bankName: 'Easypaisa',
-    accountNumber: '+923126588344',
-    accountTitle: 'Talha Mujahid',
+    accountNumber: '+92 315 4381490',
+    accountTitle: 'Sadaan Mehmood',
   },
   {
     bankName: 'Sadapay',
-    accountNumber: '+923126588344',
-    accountTitle: 'Talha Mujahid',
+    accountNumber: '+92 315 4381490',
+    accountTitle: 'Sadaan Mehmood',
   },
   {
     bankName: 'HBL',

@@ -5,12 +5,12 @@ export function CaseSection() {
   return (
     <div className="container">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
-        <div className="order-2 lg:order-1">
+        <div className="order-2 lg:order-1 text-center sm:text-left">
           <Headline
             title="OUR CASES"
             subtitle="Changing Lives, One Case at a Time"
           />
-          <Heading level={5} className="mt-4 text-gray-dark">
+          <Heading level={5} className="sm:mt-4 text-gray-dark">
             Our individual cases are focused on helping those in need with
             specific and immediate needs.
           </Heading>
@@ -19,7 +19,7 @@ export function CaseSection() {
           <Image
             src="/assets/images/courtesy.png"
             alt="Courtesy"
-            className="sm:ml-auto w-auto h-auto"
+            className="mr-auto lg:mr-0 ml-auto w-auto h-auto"
             width={500}
             height={500}
           />

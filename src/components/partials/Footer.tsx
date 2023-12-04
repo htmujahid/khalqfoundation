@@ -50,12 +50,12 @@ export function Footer() {
         <div className="container mx-auto">
           <div className="">
             <div className="flex items-center justify-center flex-col">
-              <div className="">
-                <Link href="/" className="flex items-center sm:mb-0 py-6">
+              <div className="my-6">
+                <Link href="/" className="flex items-center sm:mb-0">
                   <Image
                     src="/assets/images/logo/logo.png"
                     alt="logo"
-                    className="h-auto w-auto"
+                    className="h-14 w-auto"
                     width={100}
                     height={100}
                   />

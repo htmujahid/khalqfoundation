@@ -100,18 +100,18 @@ export function PreviousCases() {
                   </tr>
                 )}
                 {cases.map((item) => (
-                  <tr key={item.id}>
+                  <tr key={item.id} className='hover:bg-gray'>
                     <td></td>
 
-                    <td className="w-1/12 pl-4">{item.id}</td>
+                    <td className="w-1/12 p-4">{item.id}</td>
 
-                    <td className="w-3/12 whitespace-nowrap">{item.title}</td>
+                    <td className="w-3/12 p-4 whitespace-nowrap">{item.title}</td>
 
-                    <td className="w-3/12">{item.category}</td>
+                    <td className="w-3/12 p-4 whitespace-nowrap">{item.category}</td>
 
-                    <td className="w-3/12">{item.amount}</td>
+                    <td className="w-3/12 p-4 whitespace-nowrap">{item.amount}</td>
 
-                    <td className="w-2/12 pr-4 text-right whitespace-nowrap">
+                    <td className="w-2/12 p-4 text-right whitespace-nowrap">
                       {item.end_date}
                     </td>
                   </tr>

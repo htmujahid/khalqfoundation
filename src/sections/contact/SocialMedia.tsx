@@ -1,6 +1,13 @@
 import { Title } from '@/components/ui';
 import { Card } from '@/components/card';
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from '@/components/assets';
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  WhatsappIcon,
+  YoutubeIcon,
+} from '@/components/assets';
 
 const socialMediaAccounts = [
   {
@@ -19,19 +26,19 @@ const socialMediaAccounts = [
     icon: <LinkedinIcon />,
   },
   {
-    name: 'Facebook',
-    link: 'https://www.facebook.com/khalqfoundationpakistan',
-    icon: <FacebookIcon />,
+    name: 'Youtube',
+    link: 'https://www.youtube.com/@khalqfoundationpakistan9317',
+    icon: <YoutubeIcon />,
   },
   {
-    name: 'Instagram',
-    link: 'https://www.instagram.com/khalqfoundationpakistan/',
-    icon: <InstagramIcon />,
+    name: 'Twitter',
+    link: 'https://twitter.com/KhalqPakistan/',
+    icon: <TwitterIcon />,
   },
   {
-    name: 'Linkedin',
-    link: 'https://linkedin.com/in/KhalqPakistan',
-    icon: <LinkedinIcon />,
+    name: 'Whatsapp',
+    link: 'https://wa.me/923154381490',
+    icon: <WhatsappIcon />,
   },
 ];
 

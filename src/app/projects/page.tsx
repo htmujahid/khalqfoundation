@@ -7,7 +7,7 @@ import {
 
 export default function Projects() {
   return (
-    <div className="my-16">
+    <div className="py-4 sm:py-16">
       <ProjectSection />
       <div className="h-16" />
       <OngoingProjects />

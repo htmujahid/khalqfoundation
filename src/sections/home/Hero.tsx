@@ -27,7 +27,7 @@ export function Hero() {
           <Image
             src="/assets/images/hero.png"
             alt=""
-            className="sm:ml-auto w-auto h-auto"
+            className="mr-auto lg:mr-0 ml-auto w-auto h-auto"
             width={500}
             height={500}
           />
