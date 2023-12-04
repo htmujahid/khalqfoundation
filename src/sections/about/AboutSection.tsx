@@ -22,7 +22,7 @@ export function AboutSection() {
             alt="Courtesy"
             width={500}
             height={500}
-            className="ml-auto w-auto h-auto"
+            className="sm:ml-auto w-auto h-auto"
           />
         </div>
       </div>

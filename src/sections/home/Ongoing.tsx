@@ -25,34 +25,38 @@ export function Ongoing() {
                 Verified
               </span>
             </div>
-            <Heading level={2} className="font-serif">
+            <Heading level={2} className="font-serif text-center sm:text-left">
               Student Hostel Fee
             </Heading>
             <div className="py-4 2xl:py-6">
               <p className="w-full text-center sm:text-left xl:w-[450px] text-lg text-gray-dark max-h-36 sm:h-20 overflow-hidden">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus, magni doloribus officiis dolore quidem obcaecati
-                consequatur cupiditate neque harum ipsum suscipit impedit
-                praesentium repudiandae a eum! Autem corporis in iusto.
+                No act of kindness, no matter how small, is ever wasted.” We
+                need your support to help a young girl who is unable to bear her
+                expenditure of education. Donate as much as you can to keep her
+                dream alive. Your little help can be a cause of making someone
+                life So Even your minutest contribution is appreciated. Please
+                be the hand of hope and help her out.
               </p>
             </div>
             <div className="flex justify-center sm:justify-start">
               <div className="pr-4 sm:pr-10 border-r ">
                 <p className="text-gray-dark">Goal</p>
-                <p className="font-medium font-bold pt-1">PKR 125,000/-</p>
+                <p className="font-medium font-bold pt-1">PKR 25,000/-</p>
               </div>
               <div className="px-4 sm:px-10 border-r ">
                 <p className="text-gray-dark">Raised</p>
-                <p className="font-medium font-bold pt-1">PKR 125,000/-</p>
+                <p className="font-medium font-bold pt-1">PKR 25,000/-</p>
               </div>
               <div className="pl-4 sm:pl-10">
                 <p className="text-gray-dark">Remaining</p>
-                <p className="font-medium font-bold pt-1">PKR 125,000/-</p>
+                <p className="font-medium font-bold pt-1">PKR 0.00/-</p>
               </div>
             </div>
             <div className="pt-4 2xl:pt-10 pb-4">
               <a href="/donate">
-                <Button variant="primary">Donate Now</Button>
+                <Button variant="primary" className="w-full sm:w-fit">
+                  Donate Now
+                </Button>
               </a>
             </div>
             <p>

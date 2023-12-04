@@ -3,19 +3,19 @@ import { Title } from '@/components/ui';
 
 const reviews = [
   {
+    name: 'Ahmad Raza',
+    message:
+      'Khalq Foundation has so far shown promising services and great dedication in their charity work. This youth led initiative is one of it\'s kind and should be cherished.',
+  },
+  {
+    name: 'Shanzal Noor',
+    message:
+      'At an age when people think only of themselves, these young people think of others. more power to you people.',
+  },
+  {
     name: 'Waqar Azeem',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.',
-  },
-  {
-    name: 'John Doe',
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.',
-  },
-  {
-    name: 'John Doe',
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.',
+      'Ankhain Band ker k or Dil khoon k madad karin. Highly recommended',
   },
 ];
 

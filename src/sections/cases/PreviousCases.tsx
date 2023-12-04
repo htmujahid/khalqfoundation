@@ -105,15 +105,13 @@ export function PreviousCases() {
 
                     <td className="w-1/12 pl-4">{item.id}</td>
 
-                    <td className="w-3/12">{item.title}</td>
+                    <td className="w-3/12 whitespace-nowrap">{item.title}</td>
 
                     <td className="w-3/12">{item.category}</td>
 
                     <td className="w-3/12">{item.amount}</td>
 
-                    <td className="w-2/12 pr-4 text-right">
-                      {item.start_date}
-                      <br />
+                    <td className="w-2/12 pr-4 text-right whitespace-nowrap">
                       {item.end_date}
                     </td>
                   </tr>

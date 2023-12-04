@@ -19,7 +19,7 @@ export function ProjectSection() {
           <Image
             src="/assets/images/courtesy.png"
             alt="Courtesy"
-            className="ml-auto w-auto h-auto"
+            className="sm:ml-auto w-auto h-auto"
             width={500}
             height={500}
           />

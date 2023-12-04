@@ -56,8 +56,8 @@ export function Footer() {
                     src="/assets/images/logo/logo.png"
                     alt="logo"
                     className="h-auto w-auto"
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                   />
                 </Link>
               </div>

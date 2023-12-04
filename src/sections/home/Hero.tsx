@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export function Hero() {
   return (
-    <div className="container my-24 mx-auto">
+    <div className="container mt-4 mb-12 sm:my-24 mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div className="order-2 lg:order-1 text-center sm:text-left">
           <Headline
@@ -27,7 +27,7 @@ export function Hero() {
           <Image
             src="/assets/images/hero.png"
             alt=""
-            className="ml-auto w-auto h-auto"
+            className="sm:ml-auto w-auto h-auto"
             width={500}
             height={500}
           />
