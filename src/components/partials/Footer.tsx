@@ -76,7 +76,7 @@ export function Footer() {
             </div>
             <hr className="sm:mx-auto" />
             <div className="flex flex-wrap items-center justify-between flex-col-reverse py-6 gap-2 sm:flex-row">
-              <p className="text-gray-dark">&copy; 2022 khalqfoundation.org</p>
+              <p className="text-gray-dark">&copy; {new Date().getUTCFullYear()} khalqfoundation.org</p>
               <div className="flex gap-3">
                 {socialLinks.map((link, index) => (
                   <div key={index}>
