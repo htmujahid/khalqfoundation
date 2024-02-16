@@ -20,7 +20,7 @@ const previousProjects = [
   },
   {
     id: 3,
-    title: 'Ration Drive',
+    title: 'Ramadan 2023 Ration Drive',
     description:
       'Ration drive for those who are unable to afford food for themselves and their families.',
     image: '/assets/images/projects/ration-2.jpg',
