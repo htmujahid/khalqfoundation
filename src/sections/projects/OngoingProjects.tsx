@@ -10,14 +10,6 @@ const ongoingProjects = [
     image: '/assets/images/projects/ration-1.jpg',
     url: '#',
   },
-  {
-    id: 2,
-    title: 'Clothes Drive',
-    description:
-      'Clothes drive for the poor and needy, to help them live a better life.',
-    image: '/assets/images/projects/clothes.jpg',
-    url: '#',
-  },
 ];
 
 export function OngoingProjects() {
