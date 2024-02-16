@@ -20,6 +20,22 @@ const previousProjects = [
   },
   {
     id: 3,
+    title: 'Ramadan 2022',
+    description:
+      'Ramadan is a time of blessings and forgiveness. We distributed food to the poor and needy.',
+    image: '/assets/images/projects/ramadan-2.jpg',
+    url: '#',
+  },
+  {
+    id: 4,
+    title: 'Eid ul Fitr 2022',
+    description:
+      'Eid is a time of joy and happiness. We distributed food to the poor and needy.',
+    image: '/assets/images/projects/eid-fitr.jpg',
+    url: '#',
+  },
+  {
+    id: 5,
     title: 'Ramadan 2023 Ration Drive',
     description:
       'Ration drive for those who are unable to afford food for themselves and their families.',
@@ -27,11 +43,11 @@ const previousProjects = [
     url: '#',
   },
   {
-    id: 4,
-    title: 'Ramadan 2022',
+    id: 6,
+    title: 'Clothes Drive',
     description:
-      'Ramadan is a time of blessings and forgiveness. We distributed food to the poor and needy.',
-    image: '/assets/images/projects/ramadan-2.jpg',
+      'Clothes drive for the poor and needy, to help them live a better life.',
+    image: '/assets/images/projects/clothes.jpg',
     url: '#',
   },
 ];
